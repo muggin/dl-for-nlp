@@ -1,8 +1,10 @@
 ustom files
 .DS_Store
-logs/*
-corpora/*
-embeddings/*
+logs/
+corpora/
+embeddings/
+models/
+
 evaluate_similarity.py
 solve_analogy.py
 

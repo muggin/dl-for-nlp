@@ -6,13 +6,14 @@ DD2464 - Selected Topics in Deep Learning for Natural Language Processing - Rese
 
 Implementation of two algorithms for building distributed word representations.
 
-GloVe based on "GloVe: Global Vectors for Word Representation" by Pennington et al.
 
-word2vec based on "Distributed Representations of Words and Phrases and their Compositionality" by Mikolov et al.
+GloVe based on ["GloVe: Global Vectors for Word Representation"](https://nlp.stanford.edu/pubs/glove.pdf) by Pennington et al.
+
+word2vec based on ["Distributed Representations of Words and Phrases and their Compositionality"](https://arxiv.org/abs/1310.4546) by Mikolov et al.
 
 ## Machine Translation
 Implementation of a sequence-to-sequence network for Neural Machine Translation.
 
-Seq2Seq based on "Sequence to Sequence Learning with Neural Networks" by Sustskever et al.
+SeqToSeq based on ["Sequence to Sequence Learning with Neural Networks"](https://arxiv.org/abs/1409.3215) by Sustskever et al.
 
 ## Recurrent Architectures with Attention

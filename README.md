@@ -1,5 +1,5 @@
-# kth-individual-course
-DD2464 - Selected Topics in Deep Learning for Natural Language Processing - Research Track
+# Deep Learning for NLP
+Selected Topics in Deep Learning for Natural Language Processing
 
 ## Word Vectors
 > "You shall know a word by the company it keeps." - Firth

@@ -4,6 +4,7 @@ logs/
 corpora/
 embeddings/
 models/
+other/
 
 evaluate_similarity.py
 solve_analogy.py

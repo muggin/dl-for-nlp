@@ -19,10 +19,11 @@ word2vec based on ["Distributed Representations of Words and Phrases and their C
 
 #### Example Results
 <div>
-  GloVe 100-dim embeddings projected to 2D using PCA   
+  <p>GloVe 100-dim embeddings projected to 2D using PCA</p>
   <img align="center" src="/misc/g-100-sem-relations.png" width=410>
   <img align="center" src="/misc/g-100-synt-verbs.png" width=410>
-  Word2Vec 100-dim embeddings projected to 2D using PCA   
+  
+  <p>Word2Vec 100-dim embeddings projected to 2D using PCA</p>
   <img align="center" src="/misc/w2v-100-sem-relations.png" width=410>
   <img align="center" src="/misc/w2v-100-synt-adjectives.png" width=410>
 </div>

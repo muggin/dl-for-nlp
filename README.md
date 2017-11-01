@@ -4,9 +4,9 @@ The goal of this project was to explore different applications of (Deep) Neural 
 This project was carried out as part of the DD2465 "Advanced, Individual Course in Computer Science" course at [KTH Royal Institute of Technology](http://kth.se).
 
 Content:
-- [Word Embeddings](##word-embeddings)
-- [Neural Machine Translation](##neural-machine-translation)
-- [Attention-based Neural Machine Translation](##attention-based-neural-machine-translation)
+- [Word Embeddings](#word-embeddings)
+- [Neural Machine Translation](#neural-machine-translation)
+- [Attention-based Neural Machine Translation](#attention-based-neural-machine-translation)
 
 ## Word Embeddings
 > "You shall know a word by the company it keeps." - Firth

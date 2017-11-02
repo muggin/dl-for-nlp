@@ -45,7 +45,7 @@ SeqToSeq based on:
 </div>
 
 <div>
-  <p>Example translations made with the trained model</p>
+  <p>Translations made with the trained model</p>
   <table>
   <tbody>
     <tr>

@@ -39,11 +39,34 @@ SeqToSeq based on:
 
 #### Example Results
 <div>
-  Embeddings of words and phrases created using the Encoder network
+  Embeddings of words and phrases created with the Encoder network
   <img align="center" src="/misc/mt-basic-word-emb.png" width=425>
   <img align="center" src="/misc/mt-basic-sent-emb.png" width=425>
 </div>
 
+<div>
+  <p>Example translations made with the trained model</p>
+  <table>
+  <tbody>
+    <tr>
+      <th>Source</th>
+      <th>Translation</th>
+    </tr>
+    <tr>
+      <td>the debate is closed</td>
+      <td>die aussprache ist geschlossen</td>
+    </tr>
+    <tr>
+      <td>this resolution has just been rejected</td>
+      <td>diese entschließung wurde abgelehnt</td>
+    </tr>
+    <tr>
+      <td>mr president the liberal group welcomes the conclusion</td>
+      <td>herr präsident die liberale fraktion begrüßt diesen abkommen</td>
+    </tr>
+  </tbody>
+  </table>
+</div>
 
 ## Attention-based Neural Machine Translation
 Implementation of an attention-based sequence-to-sequence network for Neural Machine Translation.

@@ -39,7 +39,7 @@ Implementation of a sequence-to-sequence network for Neural Machine Translation.
 
 #### Example Results
 <div>
-  Embeddings of words and phrases created with the Encoder network
+  <p>Embeddings of words and phrases created with the Encoder network</p>
   <img align="center" src="/misc/mt-basic-word-emb.png" width=425>
   <img align="center" src="/misc/mt-basic-sent-emb.png" width=425>
 </div>
@@ -79,10 +79,11 @@ Implementation of an attention-based sequence-to-sequence network for Neural Mac
 
 #### Example Results
 <div>
-Embeddings of words and phrases created with the Encoder network
+<p>Learned alignments between source and target sequences</p>
 <img align="center" src="/misc/mt-attn-alignment-1.png" width=425>
 <img align="center" src="/misc/mt-attn-alignment-2.png" width=425>
 </div>
+</br>
 
 <div>
   <p>Translations made with the trained model</p>

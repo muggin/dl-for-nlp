@@ -155,12 +155,13 @@ def plot_embeddings(embeddings, words=[], words_cnt=500, method='pca', figsize=(
     plt.show()
 
 
-def plot_alignment(attn_img, source_seq, target_seq):
+def plot_alignment(attn_img, source_seq, target_seq, figsize=(8,8)):
     """ Plot alignment matrix with source, target labels """
+    plt.figure(figsize=figsize)
     plt.imshow(attn_img, cmap='gray', interpolation='none')
 
     plt.gca().set_xticks(np.arange(0, len(target_seq), 1))
-    plt.gca().set_xticklabels(list(target_seq))
+    plt.gca().set_xticklabels(list(target_seq), rotation=45)
     plt.gca().tick_params(labelbottom='off',labeltop='on')
 
     plt.gca().set_yticks(np.arange(0, len(source_seq), 1))

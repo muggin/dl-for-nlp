@@ -71,6 +71,6 @@ Implementation of a sequence-to-sequence network for Neural Machine Translation.
 ## Attention-based Neural Machine Translation
 Implementation of an attention-based sequence-to-sequence network for Neural Machine Translation.
 
-Attention-based SeqToSeq based on:
+[Attention-based SeqToSeq](attn-seq-to-seq.ipynb) based on:
 - [Neural Machine Translation by Jointly Learning To Align and Translate](https://arxiv.org/abs/1409.0473) by Bahdanau et al.
 - [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025) by Luong et al.

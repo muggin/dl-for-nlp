@@ -149,9 +149,22 @@ def plot_embeddings(embeddings, words=[], words_cnt=500, method='pca', figsize=(
         plt.annotate(label, xy=(x, y), xytext=(5, 2),
                      textcoords='offset points', ha='right',
                      va='bottom')
-    plt.yticks=[]
-    plt.xticks=[]
+    plt.yticks([])
+    plt.xticks([])
     plt.grid()
+    plt.show()
+
+
+def plot_alignment(attn_img, source_seq, target_seq):
+    """ Plot alignment matrix with source, target labels """
+    plt.imshow(attn_img, cmap='gray', interpolation='none')
+
+    plt.gca().set_xticks(np.arange(0, len(target_seq), 1))
+    plt.gca().set_xticklabels(list(target_seq))
+    plt.gca().tick_params(labelbottom='off',labeltop='on')
+
+    plt.gca().set_yticks(np.arange(0, len(source_seq), 1))
+    plt.gca().set_yticklabels(list(source_seq))
     plt.show()
 
 

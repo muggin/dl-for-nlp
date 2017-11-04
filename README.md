@@ -80,8 +80,8 @@ Implementation of an attention-based sequence-to-sequence network for Neural Mac
 #### Example Results
 <div>
 Embeddings of words and phrases created with the Encoder network
-<img align="center" src="/misc/mt-attn-alignment-1" width=425>
-<img align="center" src="/misc/mt-attn-alignment-2" width=425>
+<img align="center" src="/misc/mt-attn-alignment-1.png" width=425>
+<img align="center" src="/misc/mt-attn-alignment-2.png" width=425>
 </div>
 
 <div>

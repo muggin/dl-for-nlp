@@ -61,7 +61,7 @@ Implementation of a sequence-to-sequence network for Neural Machine Translation.
       <td>diese entschließung wurde abgelehnt</td>
     </tr>
     <tr>
-      <td>mr president the liberal group welcomes the conclusion</td>
+      <td>mr president the liberal group welcomes the conclusion of this agreement with jordan</td>
       <td>herr präsident die liberale fraktion begrüßt diesen abkommen</td>
     </tr>
   </tbody>
@@ -69,8 +69,35 @@ Implementation of a sequence-to-sequence network for Neural Machine Translation.
 </div>
 
 ## Attention-based Neural Machine Translation
+
+#### References
 Implementation of an attention-based sequence-to-sequence network for Neural Machine Translation.
 
 [Attention-based SeqToSeq](attn-seq-to-seq.ipynb) based on:
 - [Neural Machine Translation by Jointly Learning To Align and Translate](https://arxiv.org/abs/1409.0473) by Bahdanau et al.
 - [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025) by Luong et al.
+
+#### Example Results
+<div>
+  <p>Translations made with the trained model</p>
+  <table>
+  <tbody>
+    <tr>
+      <th>Source</th>
+      <th>Translation</th>
+    </tr>
+    <tr>
+      <td>the debate is closed</td>
+      <td>die aussprache ist geschlossen</td>
+    </tr>
+    <tr>
+      <td>this resolution has just been rejected</td>
+      <td>diese entschließung wurde nur abgelehnt</td>
+    </tr>
+    <tr>
+      <td>mr president the liberal group welcomes the conclusion of this agreement with jordan</td>
+      <td>herr präsident die fraktion begrüßt die schlussfolgerung dieses abkommens mit jordanien</td>
+    </tr>
+  </tbody>
+  </table>
+</div>
